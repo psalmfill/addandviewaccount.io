@@ -1,0 +1,163 @@
+body {
+	margin:0;
+	padding:0;
+}
+.navbar-inverse {
+  background-color: #25313F;
+  border-color: #080808;
+  width:100%;
+  padding: 1%;
+}
+#menu .navbar-header {
+	width:40%;
+
+}
+#menu .navbar-brand {
+	width:150px;
+	float: left;
+	color: #fff
+}
+#menu .navbar-toggle {
+	display: block;
+	float: left;
+}
+#menu .new {
+	float: right;
+	width: 60%;
+}
+#menu .navbar-form {
+	width: :100%;
+
+}
+#menu .search input {
+	width: 300px;
+	text-align: center;
+}
+.eclipse {
+	margin-top: 5px;
+	width: 40px;
+	height: 40px;
+	background: #fff;
+	border-radius: 50%;
+}
+.body {
+	height: 500px;
+}
+.body #sidebar {
+	height: 500px;
+}
+.body ul {
+	width: 100%;
+}
+.body ul li {
+	list-style: none;
+	width: 100%;
+	text-align: justify;
+}
+.body .navside li a {
+	color: #828282;
+}
+.body .navside li .activelink {
+	background-color: #C1D6DD;
+
+}
+.body ul li a{
+	font-size: 25px;
+	color: #25313F;
+	text-align: center;
+}
+.body svg {
+	margin:0 5%;
+	padding: 0;
+	width: 100px;
+	height: 100px;
+}
+.body div {
+	width: 100;
+}
+.body table {
+	height: 200px;
+}
+.body h2 {
+	font-size: 20px;
+	font-weight: bold;
+	float: left;
+} 
+.body button.add {
+	background: #FF6200;
+	border:none;
+	float: right;
+	font-size: 25px;
+	width: 40px;
+	color: #FFFFFF;
+}
+.analystic {
+	background: #FF6200;
+	margin: 4%;
+}
+.analystic-board {
+	background:  #FF6200;
+	height: 400px;
+	margin-left: 2%;
+}
+.mytable {
+	margin: 0 2%;
+	padding: 0 2%;
+}
+@media all and (max-width: 768px) {
+	.navbar-inverse {
+		padding: 0;
+
+	}
+	#menu .navbar-header {
+		width: 100%;
+		margin: 0;
+
+	}
+	#menu .navbar-brand {
+		float: right;
+		width: 70%;
+	}
+	#menu .new {
+		width: 100%;	
+		text-align: center;
+		border-top: 1px solid #FFFFFF;	
+		height:20px;
+		line-height:10px;
+	}
+	#menu .navbar-toggle {
+		float: left;
+
+	}
+	#menu .search input {
+		width: 100%;;
+	}
+	.eclipse {
+		display:none;
+	}
+	.navside  {
+		padding: 0
+	}
+	.navside  li a{
+		width: 100%;
+		text-align: center;
+		
+		display: block;
+		padding: 0;
+	}
+	.search {
+		width: 100%;
+	}
+	.body #sidebar {
+		width: 98%;
+		height: auto;
+		margin-bottom: 5%;
+	}
+	.body {
+		border-right:0px;
+		width: 100%;
+		margin: 0;
+		padding:0; 
+		height: auto;
+}
+}
